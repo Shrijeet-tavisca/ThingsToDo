@@ -1,0 +1,55 @@
+
+https://www.twilio.com/whatsapp  :: basic study and config\
+
+https://www.twilio.com/console/sms/whatsapp/sandbox  : sandbox config
+
+https://www.twilio.com/docs/libraries/csharp-dotnet#get-started :: sdk required
+
+https://www.twilio.com/docs/libraries  :: twilio libraries
+
+https://www.twilio.com/blog/2016/04/send-an-sms-message-with-c-in-30-seconds.html :: sms 
+
+https://www.twilio.com/docs/sms/tutorials/server-notifications-csharp-mvc  :: guide to study how to setup ands do more things
+
+https://www.twilio.com/docs/sms/api/message :: Mesage format 
+
+
+
+In order to send a templated message, you include the full body of the message in the API call. 
+Twilio will send the message as an templated message if it matches one of the approved templates. 
+If the Body does not match a pre-registered template, the message will be sent as a freeform message,
+which may fail if it is outside a WhatsApp session (see below).
+
+You can have customers initiate a conversation with you on WhatsApp via URL schemes,
+ embedded in web / mobile apps. If the user has WhatsApp IOS, Android or desktop installed,
+ clicking the deep link will open a conversation with you inside the app.
+
+Deep link format : whatsapp://send?phone=<e164 number>&text=Hello!
+
+
+Vedio Link : https://www.youtube.com/watch?v=O2PB6o2E8aA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
