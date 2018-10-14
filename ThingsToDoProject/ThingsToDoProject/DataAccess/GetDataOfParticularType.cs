@@ -9,7 +9,7 @@ namespace ThingsToDoProject.DataAccess
     {
         public static List<string> GetAllDataOfParticularType(string type)
         {
-            //string URLString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.556160,77.100281&radius=1000&type="+ type + "&key=AIzaSyB6-3S7muWP92RArV8jRd7p_DCeA24ecCU";
+            //string URLString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.556160,77.100281&radius=1000&type="+ type + "&key=YOURAPIKEY";
             //WebClient webpage = new WebClient();
             //string source = webpage.DownloadString(URLString);
             //var doc = new XmlDocument();
