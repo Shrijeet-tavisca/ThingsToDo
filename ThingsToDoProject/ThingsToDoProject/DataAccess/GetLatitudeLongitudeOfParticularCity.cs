@@ -14,7 +14,7 @@ namespace ThingsToDoProject.DataAccess
             //String paremeter that provides the google map api key
             Location Position = new Location();
             Position.Address = CityName;
-            var locationService = new GoogleLocationService(apikey: "AIzaSyA9v-ByUMauD8TazXdViq_f7RF-EHru86A");
+            var locationService = new GoogleLocationService(apikey: "YOURAPIKEY");
             var Point = locationService.GetLatLongFromAddress(Position.Address);
 
             Position.LatitudePosition = Point.Latitude;
